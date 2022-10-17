@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pemesanan Barang</title>
+</head>
+<body>
+                    <!-- Bagian Atas -->  
+    <center>
+            <div style="border: 1px solid black; width: 40%;">
+            <table cellspacing="0">
+                <tr>
+                    <td align="center" style="width: 15%;">Home</td>
+                    <td align="center" style="width: 5%;" c>|</td>
+                    <td align="center" style="width: 15%;">Register</td>
+                    <td align="center" style="width: 5%;">|</td>
+                    <td align="center" style="width: 15%;">Policy</td>
+                    <td align="center" style="width: 5%;">|</td>
+                    <td align="center" style="width: 15%;">About</td>     
+                </tr>               
+            </table>
+            </div>
+                    <!-- Bagian Bawah -->
+                    <table align="center">
+                        <tr>
+                            <td rowspan="5" style="width: 15%;"><img src="foto/R.jpg" width="150px" height="150px" style="float: 20%;"></td>
+                            <td style="width: 15%;">Title Here      :</td>
+                            <td style="width: 20%;"><p>Ransel Punggung Backpack</p></td>
+                        </tr>
+                        <tr>
+                            <td>Description      :</td>
+                            <td><p>Year : 2022<br><br>Model : Backpack<br><br>Condition : New</p></td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount    :</td>
+                            <td><p>800</p></td>
+                        </tr>
+                        <tr>
+                            <td>Pay to             :</td>
+                            <td><p>123-456-456-1</p></td>
+                        </tr>
+                        <tr>
+                            <td>Payment Type    :</td>
+                            <td>
+                            <select style="width: 30%;" >
+                                <option value="Visa Debit">Visa Debit</option>
+                                <option value="Master Cart">Master Cart</option>
+                                <option value="Discover">Discover</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>Account Holder          :</td>
+                            <td><input type="text" id="holder" style="width: 100%;"><br></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>Account No          :</td>
+                            <td rowspan="2"><input type="text" id="no" style="width: 100%;">
+                                <lo style="color: green;">
+                                    <li type="none"><input type="checkbox" name="hp" value="Send to Mobile Phone">Send to Mobile Phone</li>
+                                    <li type="none"><input type="checkbox" name="email" value="Send to Email">Emali me copy of transaction</li>
+                                </lo>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><br></td>
+                        </tr>
+                        <tr>
+                            <td> <br> </td>
+                            <td>Send to Mobile Phone</td>
+                            <td><input type="text" id="hp" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td> <br> </td>
+                            <td>Send to Email</td>
+                            <td><input type="text" id="email" style="width: 100%;"></td>
+                        </tr>
+                        <tr style="padding-top: 50%;">
+                            <td> </td><td colspan="2"  align="center" ><br><br><button style="background-color: green; color: white; " >Pay using QuidLink</button></td>
+                        </tr>
+                    </table>
+    </center>
+</body>
+</html>
