@@ -1,0 +1,50 @@
+            body{
+                background-color: #f9e3ce;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #header {
+                background-color: #ffb574;
+                text-align: center;
+                height: 170px;
+                padding-top: 1%;
+            }
+            h1{
+                color: rgb(110, 65, 182);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+            blockquote{
+                background-color: #FFFFCC;
+                text-align: center;
+                padding-right: 5%;
+                padding-left: 5%;
+                border: dotted;
+            }
+            .link{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+            }
+            .link ul{
+                display: flex;
+                list-style: none;
+            }
+            .link li{
+                margin-right: 5%;
+            }
+            .koleksi{
+                display: block;
+                margin: auto;
+                text-align: center;
+            }
+            img{
+                width: 15%;
+            }
+            .huruf{
+                font-size: 50px;
+                color: blue;
+            }
+            .gambar{
+                width: 150%;
+            }
