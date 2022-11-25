@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+img {
+    height: 30vh;
+    margin: 2vh;
+    flex-grow: 3;
+}
+body {
+    background-color: pink;
+}
+header, footer {
+    background-color: aqua;
+    height: 10vh;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    line-height: 10vh;
+}
+main {
+    height: 70vh;
+    margin: 20px;
+    display: flex;
+}
+aside {
+    background-color: aquamarine;
+    flex: 1;
+    margin-right: 20px;
+    line-height: 70vh;
+    text-align: center;
+    align-items: center;
+}
+article {
+    background-color: red;
+    flex: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    flex-grow: 1;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}

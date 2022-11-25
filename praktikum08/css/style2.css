@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+header, footer {
+    background-color: yellow;
+    height: 15vh;
+    line-height: 15vh;
+}
+main {
+    height: 70vh;
+    display: flex;
+}
+article {
+    flex: 3;
+    order: 1;
+}
+aside {
+    background-color: pink;
+    flex: 1;
+    order: 2;
+}
+nav {
+    background-color: lightgreen;
+    flex: 1;
+    order: 1;
+}
