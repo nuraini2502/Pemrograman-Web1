@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Kalkulator
+        </title>
+        <style>
+            div{
+                border: 1px solid black;
+                height: 20px;
+                width: 170px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2>Kalkulator JavaScript</h2>
+
+            <h4>Masukan Angka 1</h4>
+            <input type="text" id="angka1">
+            <br>
+            <h4>+</h4>
+            <h4>Masukan Angka 2</h4>
+            <input type="text" id="angka2" onchange="hitung()"><br>
+            <h4>=</h4>
+            <h4>Hasil</h4>
+            <div id="hasil" onchange="hitung()"></div>
+        </form>
+
+        <script>
+            function hitung(){
+                let satu = document.getElementById("angka1").value;
+                let dua = document.getElementById("angka2").value;
+                let h = parseInt(satu) + parseInt(dua);
+                document.getElementById("hasil").innerHTML = ""+h;
+            }
+        </script>
+    </body>
+</html>
